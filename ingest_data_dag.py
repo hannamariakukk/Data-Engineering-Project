@@ -162,7 +162,7 @@ with DAG(
     #    },
     #)
     
-    # Task 2: Filter stations active during 2012-2014
+    # Task 4: Filter stations active during 2012-2014
     filter_stations_task = PythonOperator(
         task_id="filter_stations",
         python_callable=filter_stations,
@@ -172,7 +172,7 @@ with DAG(
         },
     )
     
-    # Task 3: Match accidents to the nearest weather station
+    # Task 5: Match accidents to the nearest weather station
     match_accidents_task = PythonOperator(
         task_id="match_accidents",
         python_callable=match_accidents_with_stations,
@@ -183,11 +183,12 @@ with DAG(
         },
     )
 
+    #Task 6: convert csv file to DuckDB database
     database_task = PythonOperator(
         task_id="create_db",
         python_callable=load_csv_to_duckdb,
         op_kwargs={
-            "csv_file_path": "/opt/airflow/kaggle/accidents/accidents_2012_to_2014.csv",
+            "csv_file_path": "/opt/airflow/ceda/weather_data/matched_accidents_with_stations.csv",
             "db_path": "/opt/airflow/db/accidents_2012_to_2014.duckdb",
         },
     )
