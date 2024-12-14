@@ -36,6 +36,7 @@ def extract_csv(dataset: str, file_name: str, path: str):
     print("Cleaned up ZIP file.")
 
 # Function to download the metadata file from CEDA
+# This function is not used since it was not possible for us to log in in the CEDA web page using requests
 def download_ceda(url: str, output_path: str):
     os.makedirs(output_path, exist_ok=True)
     file_name = url.split("/")[-1]
@@ -153,6 +154,7 @@ with DAG(
     )
 
     # Task 3: Download the metadata file from CEDA
+    # This task is commented since the function to download the CEDA dataset doesn't work
     #download_task_ceda = PythonOperator(
     #    task_id="download_metadata",
     #    python_callable=download_ceda,
