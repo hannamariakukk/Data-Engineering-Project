@@ -48,10 +48,13 @@ Next we have to create various directories, which will be used as volumes for th
 ``mkdir ceda``
 
 ``mkdir db ``
-After creating the directories, we will have to create the directory
+
+After creating the directories, we will have to create the directory ``weather_data`` inside the ``ceda`` directory. Since the code to download 
 
 Now we can run the container with the command:
+
 `` docker compose up ``
+
 This will launch the containers, and after some time, we can open our browser and search `` localhost:8080 ``, which will open the Airflow GUI. 
 If we scroll down in the DAGs tab, we will find the DAG ``create_db_dag.py``. We can trigger this DAG manually, and the process will start.
 
