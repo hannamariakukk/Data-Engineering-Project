@@ -35,19 +35,19 @@ This will build the Airflow image and take the necessary steps written in the Do
 
 Next we have to create various directories, which will be used as volumes for the containers. These are the directories we will need:
 
-`` mkdir config
+`` mkdir config`
 
-mkdir dags
+``mkdir dags``
 
-mkdir logs
+``mkdir logs``
 
-mkdir plugins
+``mkdir plugins``
 
-mkdir kaggle
+``mkdir kaggle``
 
-mkdir ceda
+``mkdir ceda``
 
-mkdir db `
+``mkdir db ``
 After creating the directories, we will have to create the directory
 
 Now we can run the container with the command:
