@@ -35,21 +35,15 @@ This will build the Airflow image and take the necessary steps written in the Do
 
 Next we have to create various directories, which will be used as volumes for the containers. These are the directories we will need:
 
-`` mkdir config`
-
-``mkdir dags``
+`` mkdir config``
 
 ``mkdir logs``
 
 ``mkdir plugins``
 
-``mkdir kaggle``
-
-``mkdir ceda``
-
 ``mkdir db ``
 
-After creating the directories, we will have to create the directory ``weather_data`` inside the ``ceda`` directory. Since the code to download 
+Since the code to download the CEDA dataset does not work, the csv file is already in the directory ``ceda/weather_data``.
 
 Now we can run the container with the command:
 
