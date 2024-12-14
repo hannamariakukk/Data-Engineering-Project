@@ -28,15 +28,25 @@ MIDAS OPEN: UK hourly weather observation data version 202407, CEDA Archive, Met
 ## Project walkthrough
 
 This project consists on ingesting two different datasets, joining them, and creating a DuckDB database using an Apache Airflow dag. We will use Docker to get Airflow nodes working. To do this, first we have to build the image, by using the next command:
+
 `` docker compose build ``
+
 This will build the Airflow image and take the necessary steps written in the Dockerfile file.
+
 Next we have to create various directories, which will be used as volumes for the containers. These are the directories we will need:
+
 `` mkdir config
+
 mkdir dags
+
 mkdir logs
+
 mkdir plugins
+
 mkdir kaggle
+
 mkdir ceda
+
 mkdir db `
 After creating the directories, we will have to create the directory
 
