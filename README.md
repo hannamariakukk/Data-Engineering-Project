@@ -34,7 +34,7 @@ MIDAS OPEN: UK hourly weather observation data version 202407, CEDA Archive, Met
 
     Strong Winds​
 
-With these, we determined that the place with fewest accidents in these weather conditions is Aberdaron, with a single accident.​
+   With these, we determined that the place with fewest accidents in these weather conditions is Aberdaron, with a single accident.​
 
 5. Does the seasonal changes impact traffic accidents and if so then what is the most dangerous month? 
 
