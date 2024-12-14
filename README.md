@@ -18,11 +18,11 @@ MIDAS OPEN: UK hourly weather observation data version 202407, CEDA Archive, Met
 
 1. What is the weather and location for which the most number of accidents have happened?
 
-       For the first question, we get that the most accidents have happened in London St James Park with the weather "Fine without high winds" with 30K occurrances.​ We figured out that this might be because this is one of the weather stations that covers larger areas.
+   For the first question, we get that the most accidents have happened in London St James Park with the weather "Fine without high winds" with 30K occurrances.​ We figured out that this might be because this is one of the weather stations that covers larger areas.
 
 2. Do some roads/locations have less traffic accidents even on days when the weather is dangerous?
 
-       For this question, first we have to define what dagerous weather is. For that, we analyzed what the different weather conditions were, and we decided that the dangerous ones were:​
+   For this question, first we have to define what dagerous weather is. For that, we analyzed what the different weather conditions were, and we decided that the dangerous ones were:​
 
     Raining with high winds​
 
