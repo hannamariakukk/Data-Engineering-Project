@@ -36,7 +36,9 @@ MIDAS OPEN: UK hourly weather observation data version 202407, CEDA Archive, Met
 
    With these, we determined that the place with fewest accidents in these weather conditions is Aberdaron, with a single accident.​ This means that there is places with as few as a single accident in two years, even in harsher conditions. With this, we can confidently say that the answer to the question is yes, there is roads that have less traffic accidents.
 
-3. Does the seasonal changes impact traffic accidents and if so then what is the most dangerous month? 
+3. Does the seasonal changes impact traffic accidents and if so then what is the most dangerous month?
+
+   When we check the count of total accidents in each month, we can see that the months with most accidents are October and Novembe, with around 45K accidents each, and the month with the fewest accidents is february, with 35K accidents. We could say that autumn is the most dangerous season to drive a car, but we do not think the difference between the months is significant enough to get to that conclusion. 
 
 
 ## Project walkthrough
