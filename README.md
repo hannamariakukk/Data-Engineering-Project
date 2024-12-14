@@ -24,19 +24,19 @@ MIDAS OPEN: UK hourly weather observation data version 202407, CEDA Archive, Met
 
    For this question, first we have to define what dagerous weather is. For that, we analyzed what the different weather conditions were, and we decided that the dangerous ones were:​
 
-    Raining with high winds​
+    ``Raining with high winds​``
 
-    Snowing without high winds​
+    ``Snowing without high winds​``
 
-    Snowing with high winds​
+    ``Snowing with high winds​``
 
-    Fog or mist​
+    ``Fog or mist​``
 
-    Strong Winds​
+    ``Strong Winds​``
 
-   With these, we determined that the place with fewest accidents in these weather conditions is Aberdaron, with a single accident.​
+   With these, we determined that the place with fewest accidents in these weather conditions is Aberdaron, with a single accident.​ This means that there is places with as few as a single accident in two years, even in harsher conditions. With this, we can confidently say that the answer to the question is yes, there is roads that have less traffic accidents.
 
-5. Does the seasonal changes impact traffic accidents and if so then what is the most dangerous month? 
+3. Does the seasonal changes impact traffic accidents and if so then what is the most dangerous month? 
 
 
 ## Project walkthrough
